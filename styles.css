@@ -571,19 +571,9 @@ img {
   line-height: 1;
 }
 
-.backward--link::after,
-.backward--link::before,
-.forward--link::after,
-.forward--link::before {
+.arrow {
+  margin-left: 5px;
   color: #d82b00;
-}
-.forward--link::after {
-  font-family: icomoon;
-  font-size: 11px;
-  content: "\e905";
-  position: relative;
-  left: 5px;
-  transition: color 0.15s ease-in;
 }
 
 .align-center {
@@ -999,20 +989,6 @@ img {
   }
   .col-sm-offset-2 {
     margin-left: 0px !important;
-  }
-  .forward--link::after {
-    font-family: icomoon;
-    font-size: 11px;
-    content: "\e905";
-    position: relative;
-    left: 5px;
-    transition: color 0.15s ease-in;
-  }
-  .backward--link::after,
-  .backward--link::before,
-  .forward--link::after,
-  .forward--link::before {
-    color: #d82b00;
   }
 
   .trust {
