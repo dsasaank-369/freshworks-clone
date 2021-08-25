@@ -503,6 +503,15 @@ h6 {
   padding-right: 15px;
 }
 
+.solid2 {
+  color: #fff !important;
+  padding: 10px 30px;
+  font-size: 0.875rem;
+  vertical-align: bottom;
+  min-width: 160px;
+  background: #0b1320 !important;
+}
+
 .icon-text-image.icon-text-image-small {
   width: 80px;
 }
@@ -879,14 +888,65 @@ img {
   padding-bottom: 0px !important;
 }
 
-.solid {
-  background: #0b1320;
-  color: #fff !important;
+.solid1 {
+  background: #f3f1f5 !important;
+  color: black !important;
   padding: 10px 30px;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   vertical-align: bottom;
   min-width: 160px;
+  background: #0b1320;
+  font-weight: 600;
+  border: 1px solid;
+  border-radius: 4px;
 }
+
+.solid1:hover {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform, opacity, 0.2s ease-out;
+}
+
+.fixed-float {
+  position: fixed;
+  bottom: 42px;
+  right: 20px;
+}
+
+.mail {
+  width: 17px;
+  margin-right: 2px;
+}
+
+/* .icon-mail::before {
+  content: "\e90a" !important;
+  font-family: icomoon !important;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* .small {
+  padding: 7px 20px;
+  font-size: 0.75rem;
+  min-width: 100px;
+  font-family: neue-haas-grotesk-display, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  white-space: normal;
+} */
 
 @media only screen and (max-device-width: 1000px) {
   .h0-96 {
@@ -1038,13 +1098,17 @@ img {
     font-weight: 700;
     font-style: normal;
   }
-  .solid {
+
+  .solid1 {
+    display: none;
+  }
+  .solid2 {
     color: #fff !important;
     padding: 10px 30px;
     font-size: 0.875rem;
     vertical-align: bottom;
     min-width: 160px;
-    background: #0b1320;
+    background: #0b1320 !important;
   }
   .row1 {
     --bs-gutter-x: 1.5rem;
